@@ -1,0 +1,77 @@
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.75rem;
+}
+
+.center-column {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 2rem 0;
+  position: relative;
+}
+
+.event-intro {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: var(--cream);
+  border-left: 4px solid var(--orange);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--mint);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  margin: 1rem 0;
+}
+
+.submit-button p {
+  font-size: 0.8rem;
+  /* font-weight: bold; */
+}
+
+button:hover {
+  background-color: var(--orange);
+}
+
+.error-message {
+  color: var(--red);
+  margin-top: 10px;
+}
+
+
+.success-message {
+  color: green; /* Green */
+  margin-top: 10px;
+}
+
+.skip-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
+
+.skip-button:hover {
+  background-color: #F1C887FF;
+}

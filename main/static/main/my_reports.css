@@ -1,0 +1,99 @@
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Report list item styling */
+li {
+    position: relative;
+    background: #fff;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.report-description{
+    border: 3px solid #f1f1f1;
+    border-radius: 3px;
+    background: #f1f1f1;
+    font-style: italic;
+}
+
+.no-doc-avail{
+        color: #999;
+        font-style: italic;
+}
+
+/* Status styling */
+.status {
+    position: absolute; /* Changed from display: inline-block; */
+    top: 15px; /* Same as padding of li to align with the top */
+    right: 15px; /* Same as padding of li to align with the right */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.status-in-review {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.status-resolved {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.status-pending {
+    background-color: #d9534f;
+    color: white;
+}
+
+.admin-notes{
+    background: #dff0d8;
+    padding: 10px;
+    border-left: 4px solid #5cb85c;
+    margin-top: 10px;
+}
+.admin-no-notes{
+    background: #f6ebcf;
+    padding: 10px;
+    border-left: 4px solid ;
+    margin-top: 10px;
+}
+
+.delete-report{
+    border: 10px;
+    border-radius: 5px;
+    padding: 0.35rem 0.75rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto; /* aligns button to the right */
+    margin-right: auto; /* aligns button to the right */
+    width: fit-content;
+    background-color: #d9534f;
+
+}
+
+.delete-report:hover {
+  background-color: #FF1212FF;
+  color: white;
+}
+
+.no-report-msg{
+    font-style: italic;
+    position: absolute;      /* Use absolute positioning */
+    top: 30%;                /* Position the top edge of the element at the middle of the container */
+    left: 50%;               /* Position the left edge of the element at the middle of the container */
+    transform: translate(-50%, -50%); /* Shift the element to the left and up by half its own width and height */
+    width: 100%;             /* Optional: Set a specific width if needed */
+    text-align: center;      /* Center the text horizontally */
+    color: #707070;             /* Set the text color */
+}
