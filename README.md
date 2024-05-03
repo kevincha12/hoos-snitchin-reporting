@@ -1,4 +1,4 @@
-[![Review Project Details](https://s24.cs3240.org/project.html)
+![Review Project Details](https://s24.cs3240.org/project.html)
 # UVA CS3240 - Advanced Software Development Project
 
 __Group Members:__ Ryland Birchmeier, Kevin Cha, Kimberly Liu, Helena Moore, Andy Wang
