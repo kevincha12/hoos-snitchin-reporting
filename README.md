@@ -1,6 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/qgEWmaMc)
-# Advanced Software Development Project
+[![Review Project Details](https://s24.cs3240.org/project.html)
+# UVA CS3240 - Advanced Software Development Project
 
 __Group Members:__ Ryland Birchmeier, Kevin Cha, Kimberly Liu, Helena Moore, Andy Wang
 
-
+__Personal Contributinons:__ In this project, we followed an agile development process and utilized sprints to track progress and meet goals. In the project, we each emulated a team by taking on differing team roles such as Scrum Master, Elicitation Requirements Manager, DevOps Manager, Software Architect, and Testing Manager. I was personally the Testing Manager, setting up Github Actions for automation of testing. I also spearheaded the beta testing, creating scripts for different user types to elicit feedback on user concerns of functionality and UI/UX. Aside from my duties as a Testing Manager, I worked primarily on the backend of the project, contributing mostly to the models and views, as well as basic HTML template creation. I also ensured that major and minor bugs were handled by executing multiple system tests throughout the sprints and making fixes as necessary.
